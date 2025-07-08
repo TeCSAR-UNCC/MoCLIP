@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
 
-        { // python train_vq_gabe.py --name rvqgann_deuni_uniisam50_d01 --gpu_id 0 --dataset_name t2m --batch_size 256 --num_quantizers 6 --max_epoch 50 --quantize_dropout_prob 0.2 --gamma 0.05 --lr 0.0001
+        {
             "name": "Train Clip",
             "type": "debugpy",
             "request": "launch",
@@ -14,7 +14,6 @@
             "justMyCode": true,
             "args": [],
             "env": {
-                "WANDB_MODE": "offline",
                 "CUDA_VISIBLE_DEVICES": "1"
             },
         },
